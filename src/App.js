@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import commonRoutes from "./Routes/Role/role_one";
+import UserRoutes from "./Routes/Role/role_two";
+
+const role = 0; /* Static value for role user */
+const UserAccessRoutePath = {
+  0: commonRoutes,
+  1: [...commonRoutes, ...UserRoutes],
+};
+const router = createBrowserRouter(UserAccessRoutePath[role]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
