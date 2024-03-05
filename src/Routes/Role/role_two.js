@@ -1,14 +1,9 @@
-import Dashboard from "../../Components/Personal/Dashboard";
+import Dashboard from "../../Components/Personal/Dashboard/Dashboard";
 
 const roleTwo = [
   {
-    path: "/user/",
-    children: [
-      {
-        path: "dashboard",
-        element: <Dashboard />,
-      },
-    ],
+    path: "/user/dashboard",
+    element: <Dashboard />,
   },
 ];
 

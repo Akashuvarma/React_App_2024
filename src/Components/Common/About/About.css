@@ -1,0 +1,35 @@
+/* About.css */
+
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .broken-wall-container {
+    position: relative;
+    width: 1080px; /* Adjust according to your image size */
+  }
+  
+  .broken-wall-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    margin-left: 20px;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+  }
+  

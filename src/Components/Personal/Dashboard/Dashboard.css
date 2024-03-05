@@ -1,0 +1,38 @@
+/* Dashboard.css */
+
+.Dashboard {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .stat {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .stat h2 {
+    margin-bottom: 10px;
+  }
+  
+  .update-button {
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-button:hover {
+    background-color: #3f9ad2;
+  }
+  
