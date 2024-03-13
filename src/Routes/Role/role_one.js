@@ -1,5 +1,6 @@
-import AboutPage from "../../Components/Common/About/AboutPage";
-import HomePage from "../../Components/Common/Home/HomePage";
+import AboutPage from "../../Pages/AboutPage";
+import HomePage from "../../Pages/HomePage";
+
 
 const roleOne = [
   {
